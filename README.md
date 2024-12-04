@@ -1,2 +1,2 @@
-# netflix-clone
-Projeto de clonagem de site de streaming de filmes e séries
+# nebulaflix
+Projeto de site de streaming com filmes e séries

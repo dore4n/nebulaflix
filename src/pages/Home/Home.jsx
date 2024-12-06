@@ -1,9 +1,13 @@
 import React from 'react'
 import './Home.css'
 
-function Home() {
+import Navbar from '../../components/Navbar/Navbar'
+
+const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home'>
+      <Navbar/>
+    </div>
   )
 }
 

@@ -3,11 +3,11 @@ import './TitleCards.css'
 import cards_data from '../../assets/cards/Cards_data'
 
 
-const TitleCards = ({title, category}) => {
+const TitleCards = ({title}) => {
   const cardsRef = useRef();
 
   const handleWheel = (event)=>{
-    event.preventDefault;
+    event.preventDefault();
     cardsRef.current.scrollLeft += event.deltaY;
   }
 
@@ -22,7 +22,7 @@ const TitleCards = ({title, category}) => {
       <div className="card-list" ref={cardsRef}>
         {cards_data.map((card, index)=>{
           return <div className="card" key={index}>
-            <img src={card.image} alt="" />
+            <img src={card.image} alt="card" />
             <p>{card.name}</p>
           </div>
         })}

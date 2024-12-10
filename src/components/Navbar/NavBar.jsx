@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import './NavBar.css'
 
 
 import logo from '../../assets/nebulaflix-logo.svg'
@@ -29,6 +29,9 @@ function Navbar() {
           <div className="navbar-profile">
             <img src={profile_img} alt='bell' className='profile' />
             <img src={caret_icon} alt='caret' />
+            <div className="dropdown">
+              <p>Sign Out of Netflix</p>
+            </div>
           </div>
         </div>
     </div>

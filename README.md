@@ -2,8 +2,6 @@
 
 Este projeto é uma reprodução da página inicial do Netflix, desenvolvida com **React**. A ideia principal foi consolidar conhecimentos em **UI/UX Design** e praticar conceitos fundamentais do React.
 
-<<<<<<< HEAD
-
 <img src="./public/readme/home-nebulaflix.png">
 <img src="./public/readme/home-cards-nebulaflix.png">
 
